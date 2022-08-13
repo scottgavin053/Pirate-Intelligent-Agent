@@ -1,1 +1,5 @@
 # Pirate-Intelligent-Agent
+
+The goal of this project was to create an AI that is able to solve a pathfinding problem using a Q-learning algorithm. The process of implementing the learning policy begins by making an 8x8 grid to use as a maze. We then create the agent and actions to move from state to state. Once the neural network is built, we implement the Q-learning algorithm. Our Q-algorithm is designed to start the agent at a random spot for each epoch and let it explore at the beginning stages. The experience of each game is saved then used as data in the process of training the model. This leads to the agent accomplishing a higher win rate and utilizing more exploitation as the reward system is better defined.
+
+In designing a functioning AI, ethics is an important factor in developing and deploying an intelligence. Because of the scope of this project, there was no real possibility of unethical use. However, real world algorithms can form biases and unintentionally become unethical. Transparent, well documented, and fair models are necessary for artificial intelligences as our species becomes more dependent on them in everyday life.
